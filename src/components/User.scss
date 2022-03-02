@@ -1,0 +1,29 @@
+#user {
+  text-align: center;
+
+  .user__avatar {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+  .user__name {
+  }
+
+  .user__profession {
+  }
+
+  .user__infos {
+    text-align: left;
+    padding: 1.5rem 0;
+    .user__info {
+      display: flex;
+
+      svg {
+        color: var(--icon-color);
+        margin-right: 1rem;
+      }
+    }
+  }
+}

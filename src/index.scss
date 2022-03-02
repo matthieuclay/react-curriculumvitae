@@ -1,13 +1,87 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+
+*,
+::before,
+::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*******************************************************/
+
+#root {
+  /* colors */
+  --body-bg-color: rgba(255, 255, 255, 1);
+  --sidebar-bg-color: rgba(255, 255, 255, 1);
+  --title-color: rgba(0, 0, 0, 1);
+  --text-color: rgba(21, 21, 21, 1);
+  --date-color: rgba(255, 255, 255, 1);
+  --icon-color: var(--text-color);
+  --circle-color: rgb(211, 211, 211);
+  --circle-color-plain: rgb(21, 21, 21);
+
+  /* fonts */
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 1.7rem;
+  --h2-font-size: 1.3rem;
+  --h3-font-size: 1.1rem;
+  --h4-font-size: 1rem;
+
+  /* ******** */
+  h1,
+  h2,
+  h3 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: var(--title-color);
+  }
+
+  h1 {
+    font-size: var(--h1-font-size);
+    text-transform: uppercase;
+  }
+
+  h2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: var(--h2-font-size);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    padding-left: 1.3rem;
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .circle {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-color: var(--circle-color);
+  }
+
+  .circle-plain {
+    background-color: var(--circle-color-plain);
+  }
+
+  font-family: var(--body-font);
+  font-weight: 200;
+  color: var(--text-color);
+  background-color: var(--body-bg-color);
 }
