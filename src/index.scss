@@ -13,13 +13,13 @@
 #root {
   /* colors */
   --body-bg-color: rgba(255, 255, 255, 1);
-  --sidebar-bg-color: rgba(255, 255, 255, 1);
+  --sidebar-bg-color: rgba(244, 244, 244, 1);
   --title-color: rgba(0, 0, 0, 1);
   --text-color: rgba(21, 21, 21, 1);
-  --date-color: rgba(255, 255, 255, 1);
+  --date-color: rgba(106, 137, 204, 1);
   --icon-color: var(--text-color);
-  --circle-color: rgb(211, 211, 211);
-  --circle-color-plain: rgb(21, 21, 21);
+  --circle-color: rgba(177, 177, 177, 1);
+  --circle-color-plain: rgba(21, 21, 21, 1);
 
   /* fonts */
   --body-font: "Poppins", sans-serif;

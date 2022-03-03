@@ -1,0 +1,21 @@
+#formationsexperiences {
+  .grid__row {
+    .grid__item {
+      margin-bottom: 1rem;
+
+      .grid__date {
+        font-weight: 500;
+      }
+      .grid__title {
+        margin-bottom: 0;
+      }
+      .grid__location {
+        font-weight: 300;
+        color: var(--date-color);
+      }
+      .grid__mission {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+}

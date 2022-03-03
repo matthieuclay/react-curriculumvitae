@@ -13,12 +13,13 @@ function Skills() {
         <Skill title="JS" rating="3" />
         <Skill title="ANGULAR" rating="3" />
         <Skill title="VUE" rating="3" />
-        <Skill title="REACT" rating="1" />
+        <Skill title="REACT" rating="2" />
         <Skill title="NODE" rating="1" />
         <Skill title="JAVA" rating="3" />
       </div>
       <div className="skills">
         <h2 className="h2">Langues</h2>
+        <Skill title="Français" rating="5" />
         <Skill title="Anglais" rating="3" />
       </div>
       <Interests />
