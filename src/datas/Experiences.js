@@ -8,15 +8,7 @@ const dataExperiences = [
     missions: [
       {
         id: 1,
-        title: "mission 1",
-      },
-      {
-        id: 2,
-        title: "mission 2",
-      },
-      {
-        id: 3,
-        title: "mission 3",
+        title: "Apprentissage React",
       },
     ],
   },
@@ -29,15 +21,7 @@ const dataExperiences = [
     missions: [
       {
         id: 1,
-        title: "mission 1",
-      },
-      {
-        id: 2,
-        title: "mission 2",
-      },
-      {
-        id: 3,
-        title: "mission 3",
+        title: "Apprentissage Ionic",
       },
     ],
   },
@@ -50,15 +34,19 @@ const dataExperiences = [
     missions: [
       {
         id: 1,
-        title: "mission 1",
+        title: "Développement et maintenance d'une application web interne",
       },
       {
         id: 2,
-        title: "mission 2",
+        title: "Participation au formation informatique interne ",
       },
       {
         id: 3,
-        title: "mission 3",
+        title: "Rédaction de documentations techniques",
+      },
+      {
+        id: 4,
+        title: "Prise en charge d'incidents et résolutions",
       },
     ],
   },
@@ -71,15 +59,23 @@ const dataExperiences = [
     missions: [
       {
         id: 1,
-        title: "mission 1",
+        title: "Préparation de postes informatique (Windows 7, Windows 10)",
       },
       {
         id: 2,
-        title: "mission 2",
+        title: "Assistance Helpdesk",
       },
       {
         id: 3,
-        title: "mission 3",
+        title: "Maintenance de postes informatique à distance, et sur site",
+      },
+      {
+        id: 4,
+        title: "Prise en charge d'incidents et résolutions",
+      },
+      {
+        id: 5,
+        title: "Participation au projet NOMADE (Smartphone, tablette)",
       },
     ],
   },

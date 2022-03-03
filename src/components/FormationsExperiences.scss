@@ -20,3 +20,15 @@
     }
   }
 }
+
+.dark {
+  #formationsexperiences {
+    .grid__row {
+      .grid__item {
+        .grid__location {
+          color: var(--dark-date-color);
+        }
+      }
+    }
+  }
+}

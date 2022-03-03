@@ -63,6 +63,10 @@ body {
     text-transform: uppercase;
   }
 
+  h3 {
+    font-size: var(--h3-font-size);
+  }
+
   button {
     background-color: transparent;
     border: none;
@@ -71,7 +75,7 @@ body {
 
   a {
     text-decoration: none;
-    color: inherit;
+    color: var(--text-color);
   }
 
   p {
@@ -125,6 +129,10 @@ body {
   }
 
   button {
+    color: var(--dark-text-color);
+  }
+
+  a {
     color: var(--dark-text-color);
   }
 }
