@@ -3,6 +3,11 @@
     .sidebar {
       padding: 1.5rem;
       background-color: var(--sidebar-bg-color);
+
+      .actions {
+        display: flex;
+        justify-content: space-between;
+      }
     }
     .main {
       padding: 1.5rem;
@@ -10,6 +15,15 @@
   }
 }
 
+.dark {
+  #app {
+    .grid__container {
+      .sidebar {
+        background-color: var(--dark-sidebar-bg-color);
+      }
+    }
+  }
+}
 @media screen and (min-width: 768px) {
   .grid__container {
     display: grid;
